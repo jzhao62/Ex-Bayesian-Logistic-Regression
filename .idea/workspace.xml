@@ -2,39 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb87b107-9da7-424b-bb8e-805dfedb6901" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mnist.pkl.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/usps_test_image.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/usps_test_label.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/load_data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.coveralls.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/figure_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/figure_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/figure_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/figure_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipython_notebooks_tutorials/decomposition_models/example_lda.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipython_notebooks_tutorials/decomposition_models/rbm_demo.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipython_notebooks_tutorials/hidden_markov_models/examples_hmm.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipython_notebooks_tutorials/linear_models/bayesian_linear_regression.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipython_notebooks_tutorials/linear_models/bayesian_logistic_regression_demo.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipython_notebooks_tutorials/mixture_models/digits.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipython_notebooks_tutorials/mixture_models/example_bernoulli_mixture.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipython_notebooks_tutorials/mixture_models/example_gaussian_mixture_with_ard.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipython_notebooks_tutorials/mixture_models/faithful.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipython_notebooks_tutorials/rvm_ard/ard_classification_demo.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipython_notebooks_tutorials/rvm_ard/pima-indians-diabetes.data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipython_notebooks_tutorials/rvm_ard/rvm_demo.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipython_notebooks_tutorials/rvm_ard/vbard_classification.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ipython_notebooks_tutorials/sunspot.month.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nose.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/tester.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skbayes/linear_models/bayes_logistic.py" afterPath="$PROJECT_DIR$/skbayes/linear_models/bayes_logistic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EBLR_performance(USPS)_0.39.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Performance" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VBLR.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utilities.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/decomposition_models/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/decomposition_models/gibbs_lda_cython.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/decomposition_models/gibbs_lda_cython.pyx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/decomposition_models/rbm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/hidden_markov_models/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/hidden_markov_models/hmm.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/hidden_markov_models/hmm.pyx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/linear_models/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/linear_models/bayes_linear.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/mixture_models/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/mixture_models/dpmixture.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/mixture_models/mixture.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/rvm_ard_models/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/rvm_ard_models/fast_rvm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/rvm_ard_models/vrvm.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mnist.pkl.gz" afterPath="$PROJECT_DIR$/data/mnist.pkl.gz" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/skbayes/linear_models/bayes_logistic.py" afterPath="$PROJECT_DIR$/BLR.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/usps_test_image.pkl" afterPath="$PROJECT_DIR$/data/usps_test_image.pkl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/usps_test_label.pkl" afterPath="$PROJECT_DIR$/data/usps_test_label.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/load_data.py" afterPath="$PROJECT_DIR$/load_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,24 +43,41 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            <state relative-caret-position="506">
+              <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
               <folding>
                 <element signature="n#!!doc" expanded="false" />
-                <element signature="e#492#527#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="false" />
+                <element signature="e#533#555#0" expanded="true" />
+                <marker date="1511131118879" expanded="true" signature="1817:2011" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="load_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/load_data.py">
+      <file leaf-file-name="Performance" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Performance">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="84" column="33" lean-forward="false" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+            <state relative-caret-position="528">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BLR.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BLR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="96" column="13" lean-forward="false" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
               <folding>
-                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#1024#2808#1" expanded="false" />
+                <element signature="e#3089#3971#0" expanded="false" />
+                <element signature="e#3326#3382#0" expanded="false" />
+                <element signature="e#4026#4683#0" expanded="false" />
+                <element signature="e#4719#4766#0" expanded="false" />
+                <element signature="e#4811#4837#0" expanded="false" />
+                <element signature="e#4928#4996#0" expanded="false" />
+                <element signature="e#5168#5517#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -87,6 +98,11 @@
       <find>classification_report</find>
       <find>_add_intercept</find>
       <find>add_intercept</find>
+      <find>BaseEstimator</find>
+      <find>predict</find>
+      <find>_fit</find>
+      <find>_mask_val</find>
+      <find>_get_intercept</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -101,15 +117,20 @@
         <option value="D:/Anaconda/Lib/site-packages/sklearn/linear_model/base.py" />
         <option value="$PROJECT_DIR$/skbayes/linear_models/bayes_logistic.py" />
         <option value="$PROJECT_DIR$/load_data.py" />
+        <option value="$PROJECT_DIR$/bayesian_logistic_regression.py" />
+        <option value="$PROJECT_DIR$/VBLR.py" />
+        <option value="$PROJECT_DIR$/utilities.py" />
+        <option value="$PROJECT_DIR$/BLR.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Performance" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1088" />
-    <option name="y" value="146" />
+    <option name="x" value="743" />
+    <option name="y" value="189" />
     <option name="width" value="1294" />
-    <option name="height" value="1407" />
+    <option name="height" value="1452" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -133,11 +154,6 @@
               <item name="sklearn-bayes" type="b2602c69:ProjectViewProjectNode" />
               <item name="sklearn-bayes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sklearn-bayes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sklearn-bayes" type="462c0819:PsiDirectoryNode" />
-              <item name="skbayes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -147,12 +163,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python37/python.exe" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jingyi\PycharmProjects\sklearn-bayes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jingyi\PycharmProjects\sklearn-bayes" />
+      <recent name="C:\Users\jingyi\PycharmProjects\sklearn-bayes\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,26 +249,26 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.78828126" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1391097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32734376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647059" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14626391" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32734376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -259,138 +279,260 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/skbayes/linear_models/__init__.py</url>
+          <url>file://$PROJECT_DIR$/support/linear_models/__init__.py</url>
           <line>16</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skbayes/linear_models/bayes_logistic.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#617#709#1" expanded="false" />
-            <element signature="e#780#920#0" expanded="false" />
-            <element signature="e#962#2704#0" expanded="false" />
-            <element signature="e#962#1330#1" expanded="false" />
-            <element signature="e#2762#3714#0" expanded="false" />
-            <element signature="e#2762#3140#1" expanded="false" />
-            <element signature="e#3773#3842#0" expanded="false" />
-            <element signature="e#3888#3991#0" expanded="false" />
-            <element signature="e#4030#4196#0" expanded="false" />
-            <element signature="e#4260#9959#0" expanded="false" />
-            <element signature="e#4260#6119#1" expanded="false" />
-            <element signature="e#6509#6552#0" expanded="false" />
-            <element signature="e#8639#9956#0" expanded="false" />
-            <element signature="e#10066#10205#0" expanded="false" />
-            <element signature="e#10273#14974#0" expanded="false" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#533#555#0" expanded="true" />
+            <marker date="1511131118879" expanded="true" signature="1817:2011" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Performance">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+            <element signature="e#1024#2808#1" expanded="false" />
+            <element signature="e#3089#3971#0" expanded="false" />
+            <element signature="e#3326#3382#0" expanded="false" />
+            <element signature="e#4026#4683#0" expanded="false" />
+            <element signature="e#4719#4766#0" expanded="false" />
+            <element signature="e#4811#4837#0" expanded="false" />
+            <element signature="e#4928#4996#0" expanded="false" />
+            <element signature="e#5168#5517#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#533#555#0" expanded="true" />
+            <marker date="1511131118879" expanded="true" signature="1817:2011" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="41" column="11" lean-forward="false" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+            <element signature="e#1024#2808#1" expanded="false" />
+            <element signature="e#3089#3971#0" expanded="false" />
+            <element signature="e#3326#3382#0" expanded="false" />
+            <element signature="e#4026#4683#0" expanded="false" />
+            <element signature="e#4719#4766#0" expanded="false" />
+            <element signature="e#4811#4837#0" expanded="false" />
+            <element signature="e#4928#4996#0" expanded="false" />
+            <element signature="e#5168#5517#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#533#555#0" expanded="true" />
+            <marker date="1511131118879" expanded="true" signature="1817:2011" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="219" column="28" lean-forward="true" selection-start-line="219" selection-start-column="28" selection-end-line="219" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+            <element signature="e#1024#2808#1" expanded="false" />
+            <element signature="e#3089#3971#0" expanded="false" />
+            <element signature="e#3326#3382#0" expanded="false" />
+            <element signature="e#4026#4683#0" expanded="false" />
+            <element signature="e#4719#4766#0" expanded="false" />
+            <element signature="e#4811#4837#0" expanded="false" />
+            <element signature="e#4928#4996#0" expanded="false" />
+            <element signature="e#5168#5517#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="52" column="69" lean-forward="false" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="69" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#533#555#0" expanded="true" />
+            <marker date="1511131118879" expanded="true" signature="1817:2011" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="102" column="33" lean-forward="false" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+            <element signature="e#1024#2808#1" expanded="false" />
+            <element signature="e#3089#3971#0" expanded="false" />
+            <element signature="e#3326#3382#0" expanded="false" />
+            <element signature="e#4026#4683#0" expanded="false" />
+            <element signature="e#4719#4766#0" expanded="false" />
+            <element signature="e#4811#4837#0" expanded="false" />
+            <element signature="e#4928#4996#0" expanded="false" />
+            <element signature="e#5168#5517#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="52" column="69" lean-forward="true" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="69" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#533#555#0" expanded="true" />
+            <marker date="1511131118879" expanded="true" signature="1817:2011" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="102" column="33" lean-forward="true" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+            <element signature="e#1024#2808#1" expanded="false" />
+            <element signature="e#3089#3971#0" expanded="false" />
+            <element signature="e#3326#3382#0" expanded="false" />
+            <element signature="e#4026#4683#0" expanded="false" />
+            <element signature="e#4719#4766#0" expanded="false" />
+            <element signature="e#4811#4837#0" expanded="false" />
+            <element signature="e#4928#4996#0" expanded="false" />
+            <element signature="e#5168#5517#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#533#555#0" expanded="true" />
+            <marker date="1511131118879" expanded="true" signature="1817:2011" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/linear_models/bayes_logistic.py" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2222">
           <caret line="101" column="42" lean-forward="true" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
-            <element signature="e#492#527#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="false" />
+            <element signature="e#533#555#0" expanded="true" />
+            <marker date="1511131118879" expanded="true" signature="1817:2011" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skbayes/linear_models/bayes_logistic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3982">
-          <caret line="397" column="24" lean-forward="true" selection-start-line="397" selection-start-column="24" selection-end-line="397" selection-end-column="24" />
-          <folding>
-            <element signature="e#617#709#1" expanded="false" />
-            <element signature="e#780#920#0" expanded="false" />
-            <element signature="e#962#2704#0" expanded="false" />
-            <element signature="e#962#1330#1" expanded="false" />
-            <element signature="e#2762#3714#0" expanded="false" />
-            <element signature="e#2762#3140#1" expanded="false" />
-            <element signature="e#3773#3842#0" expanded="false" />
-            <element signature="e#3888#3991#0" expanded="false" />
-            <element signature="e#4030#4196#0" expanded="false" />
-            <element signature="e#4260#9959#0" expanded="false" />
-            <element signature="e#4260#6119#1" expanded="false" />
-            <element signature="e#6509#6552#0" expanded="false" />
-            <element signature="e#8639#9956#0" expanded="false" />
-            <element signature="e#10066#10205#0" expanded="false" />
-            <element signature="e#10273#14974#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/support/linear_models/bayes_logistic.py" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
           <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
-            <element signature="e#492#527#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="false" />
+            <element signature="e#533#555#0" expanded="true" />
+            <marker date="1511131118879" expanded="true" signature="1817:2011" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skbayes/linear_models/bayes_logistic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding>
-            <element signature="e#617#709#1" expanded="false" />
-            <element signature="e#780#920#0" expanded="false" />
-            <element signature="e#962#2704#0" expanded="false" />
-            <element signature="e#962#1330#1" expanded="false" />
-            <element signature="e#2762#3714#0" expanded="false" />
-            <element signature="e#2762#3140#1" expanded="false" />
-            <element signature="e#3773#3842#0" expanded="false" />
-            <element signature="e#3888#3991#0" expanded="false" />
-            <element signature="e#4030#4196#0" expanded="false" />
-            <element signature="e#4260#9959#0" expanded="false" />
-            <element signature="e#4260#6119#1" expanded="false" />
-            <element signature="e#6509#6552#0" expanded="false" />
-            <element signature="e#8639#9956#0" expanded="false" />
-            <element signature="e#10066#10205#0" expanded="false" />
-            <element signature="e#10273#14974#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skbayes/mixture_models/mixture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
-          <caret line="144" column="24" lean-forward="false" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/support/linear_models/bayes_logistic.py" />
+    <entry file="file://$PROJECT_DIR$/support/mixture_models/mixture.py" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
-            <element signature="e#492#527#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="false" />
+            <element signature="e#533#555#0" expanded="true" />
+            <marker date="1511131118879" expanded="true" signature="1817:2011" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skbayes/mixture_models/mixture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
-          <caret line="144" column="24" lean-forward="false" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/support/mixture_models/mixture.py" />
     <entry file="file://$PROJECT_DIR$/figure_1.png" />
     <entry file="file://$PROJECT_DIR$/figure_2.png" />
     <entry file="file://$PROJECT_DIR$/figure_3.png" />
@@ -409,16 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/sklearn/linear_model/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#10236#10834#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Anaconda/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -431,80 +563,108 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24046">
           <caret line="1112" column="0" lean-forward="false" selection-start-line="1112" selection-start-column="0" selection-end-line="1112" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skbayes/linear_models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="e#585#654#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skbayes/linear_models/bayes_linear.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skbayes/linear_models/bayes_logistic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#617#709#1" expanded="false" />
-            <element signature="e#780#920#0" expanded="false" />
-            <element signature="e#962#2704#0" expanded="false" />
-            <element signature="e#962#1330#1" expanded="false" />
-            <element signature="e#2762#3714#0" expanded="false" />
-            <element signature="e#2762#3140#1" expanded="false" />
-            <element signature="e#3773#3842#0" expanded="false" />
-            <element signature="e#3888#3991#0" expanded="false" />
-            <element signature="e#4030#4196#0" expanded="false" />
-            <element signature="e#4260#9959#0" expanded="false" />
-            <element signature="e#4260#6119#1" expanded="false" />
-            <element signature="e#6509#6552#0" expanded="false" />
-            <element signature="e#8639#9956#0" expanded="false" />
-            <element signature="e#10066#10205#0" expanded="false" />
-            <element signature="e#10273#14974#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/support/linear_models/__init__.py" />
     <entry file="file://$USER_HOME$/Downloads/plot_digits_classification.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="42" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/linear_models/bayes_linear.py" />
+    <entry file="file://$PROJECT_DIR$/support/linear_models/bayes_logistic.py" />
+    <entry file="file://$PROJECT_DIR$/support/hidden_markov_models/hmm.c" />
+    <entry file="file://$PROJECT_DIR$/support/mixture_models/dpmixture.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/sklearn/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="87" column="45" lean-forward="true" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/scipy/special/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12936">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/load_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="84" column="33" lean-forward="false" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+        <state relative-caret-position="264">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/sklearn/linear_model/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="314" column="0" lean-forward="false" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VBLR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="268" column="39" lean-forward="true" selection-start-line="268" selection-start-column="39" selection-end-line="268" selection-end-column="39" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
+            <element signature="e#572#3574#0" expanded="false" />
+            <element signature="e#3574#3575#0" expanded="false" />
+            <element signature="e#9242#10562#1" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EBLR_performance(USPS)_0.39.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="96" column="13" lean-forward="false" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+          <folding>
+            <element signature="e#1024#2808#1" expanded="false" />
+            <element signature="e#3089#3971#0" expanded="false" />
+            <element signature="e#3326#3382#0" expanded="false" />
+            <element signature="e#4026#4683#0" expanded="false" />
+            <element signature="e#4719#4766#0" expanded="false" />
+            <element signature="e#4811#4837#0" expanded="false" />
+            <element signature="e#4928#4996#0" expanded="false" />
+            <element signature="e#5168#5517#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Performance">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        <state relative-caret-position="506">
+          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
-            <element signature="e#492#527#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="false" />
+            <element signature="e#533#555#0" expanded="true" />
+            <marker date="1511131118879" expanded="true" signature="1817:2011" ph="..." />
           </folding>
         </state>
       </provider>
