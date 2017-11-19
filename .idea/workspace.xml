@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb87b107-9da7-424b-bb8e-805dfedb6901" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EBLR_performance(USPS)_0.39.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Performance" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VBLR.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utilities.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/decomposition_models/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/decomposition_models/gibbs_lda_cython.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/decomposition_models/gibbs_lda_cython.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/decomposition_models/rbm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/hidden_markov_models/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/hidden_markov_models/hmm.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/hidden_markov_models/hmm.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/linear_models/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/linear_models/bayes_linear.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/mixture_models/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/mixture_models/dpmixture.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/mixture_models/mixture.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/rvm_ard_models/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/rvm_ard_models/fast_rvm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/skbayes/rvm_ard_models/vrvm.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mnist.pkl.gz" afterPath="$PROJECT_DIR$/data/mnist.pkl.gz" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/skbayes/linear_models/bayes_logistic.py" afterPath="$PROJECT_DIR$/BLR.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/usps_test_image.pkl" afterPath="$PROJECT_DIR$/data/usps_test_image.pkl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/usps_test_label.pkl" afterPath="$PROJECT_DIR$/data/usps_test_label.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Read_me" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/load_data.py" afterPath="$PROJECT_DIR$/load_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+            <state relative-caret-position="22">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="false" />
                 <element signature="e#533#555#0" expanded="true" />
@@ -58,7 +33,17 @@
         <entry file="file://$PROJECT_DIR$/Performance">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Read_me" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Read_me">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,12 +108,13 @@
         <option value="$PROJECT_DIR$/BLR.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/Performance" />
+        <option value="$PROJECT_DIR$/Read_me" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="743" />
-    <option name="y" value="189" />
+    <option name="x" value="240" />
+    <option name="y" value="136" />
     <option name="width" value="1294" />
     <option name="height" value="1452" />
   </component>
@@ -244,6 +230,14 @@
       <option name="presentableId" value="Default" />
       <updated>1510815852758</updated>
     </task>
+    <task id="LOCAL-00001" summary="1.1: Almost finish editing BLR">
+      <created>1511131737797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511131737797</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -274,6 +268,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.1: Almost finish editing BLR" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1: Almost finish editing BLR" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -607,29 +605,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VBLR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="268" column="39" lean-forward="true" selection-start-line="268" selection-start-column="39" selection-end-line="268" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-            <element signature="e#572#3574#0" expanded="false" />
-            <element signature="e#3574#3575#0" expanded="false" />
-            <element signature="e#9242#10562#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utilities.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#204#1190#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EBLR_performance(USPS)_0.39.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VBLR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="267" column="0" lean-forward="true" selection-start-line="267" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
+          <folding>
+            <element signature="e#572#3574#0" expanded="false" />
+            <element signature="e#3574#3575#0" expanded="false" />
+            <element signature="e#9242#10562#1" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BLR.py">
@@ -649,23 +649,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Performance">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        <state relative-caret-position="22">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
             <element signature="e#533#555#0" expanded="true" />
             <marker date="1511131118879" expanded="true" signature="1817:2011" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Performance">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Read_me">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
