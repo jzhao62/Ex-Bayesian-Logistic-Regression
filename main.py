@@ -1,19 +1,4 @@
-# import matplotlib.pyplot as plt
-# import numpy as np
-# from scipy import stats
-# import matplotlib.pyplot as plt
-# from matplotlib import cm
-# %matplotlib inline
-#
-# test using scikit-learn unit tests for linear classifier
-# from sklearn.utils.estimator_checks import check_estimator
-# check_estimator(EBLogisticRegression)
-# check_estimator(VBLogisticRegression)
-# from sklearn.datasets import make_blobs
-# from matplotlib import cm
-# from sklearn.cross_validation import train_test_split
-#
-# from support.linear_models import *
+# Empirical Bayesian Logistic Regression for MNIST & USPS
 
 from load_data import*
 from sklearn.metrics import classification_report
