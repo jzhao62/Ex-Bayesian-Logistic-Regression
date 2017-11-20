@@ -45,12 +45,12 @@ def main():
         print(classification_report(y_test, eblr_prediction_test_mnist))
 
 
-        # print("\n === EBLR on USPS set ===")
-        # eblr_prediction_usps = eblr.try_predict(usps_test)
-        # print(classification_report(usps_label, eblr_prediction_usps))
-        # cnf_eblr_usps = metrics.confusion_matrix(usps_label, eblr_prediction_usps)
-        # plot_confusion_matrix(cnf_eblr_usps, normalize=False, title='Confusion matrix(EBLR) on USPS testSet')
-        # plt.show()
+        print("\n === EBLR on USPS set ===")
+        eblr_prediction_usps = eblr.try_predict(usps_test)
+        print(classification_report(usps_label, eblr_prediction_usps))
+        cnf_eblr_usps = metrics.confusion_matrix(usps_label, eblr_prediction_usps)
+        plot_confusion_matrix(cnf_eblr_usps, normalize=False, title='Confusion matrix(EBLR) on USPS testSet')
+        plt.show()
 
 
 main()
