@@ -5,3 +5,5 @@ Emperical Bayesian logistic regression applied for digit classification on MNIST
 Reference:
 Sklearn's Bayesian Logistic model on OVR problem
 https://github.com/AmazaspShumik/sklearn-bayes
+
+Jingyi Zhao 2017/11/20
