@@ -1,5 +1,7 @@
 Author: Jingyi Zhao
 
+Emperical Bayesian logistic regression applied for digit classification on MNIST and USPS data set
+
 Reference:
 Sklearn's Bayesian Logistic model on OVR problem
 https://github.com/AmazaspShumik/sklearn-bayes
